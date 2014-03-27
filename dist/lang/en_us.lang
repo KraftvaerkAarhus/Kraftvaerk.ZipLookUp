@@ -1,0 +1,32 @@
+{
+	labels:[
+		{
+			key: "enterzipcode",
+			label: "Enter the zip-code you want to lookup"
+		},
+		{
+			key: "country",
+			label: "Country"
+		},
+		{
+			key: "countryabbr",
+			label: "Country abbreviation"
+		},
+		{
+			key: "placecity",
+			label: "Place / City"
+		},
+		{
+			key: "statename",
+			label: "State name"
+		},
+		{
+			key: "statenameabbr",
+			label: "State name abbrevation"
+		},
+		{
+			key: "coordinates",
+			label: "Coordinates"
+		},
+	]
+}

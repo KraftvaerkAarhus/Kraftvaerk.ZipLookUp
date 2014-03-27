@@ -1,0 +1,67 @@
+{
+  propertyEditors:
+  [ 
+    {
+      alias: "Kraftvaerk.ZipLookUp",
+      name: "Kraftvaerk.ZipLookUp",
+      editor:  
+      {
+        view: "~/App_Plugins/Kraftvaerk.ZipLookUp/kraftvaerk.ziplookup.html"
+      },
+      prevalues: {
+        fields:[
+          {
+            label: "Country",
+            description: "Select a country to look up zip codes in",
+            key: "country",
+            view: "~/App_Plugins/Kraftvaerk.ZipLookUp/prevalueeditors/datalist.html"
+          },
+          {
+            label: "Show country",
+            description: "Should country be shown when the lookup is done?",
+            key: "showcountry",
+            view: "boolean"
+          },
+          {
+            label: "Show country abbrevation",
+            description: "Should country abbrevation be shown when the lookup is done?",
+            key: "showcountryabbr",
+            view: "boolean"
+          },
+          {
+            label: "Show place name",
+            description: "Should place name be shown when the lookup is done?",
+            key: "showplacename",
+            view: "boolean"
+          },
+          {
+            label: "Show state name",
+            description: "Should state name be shown when the lookup is done?",
+            key: "showstatename",
+            view: "boolean"
+          },
+          {
+            label: "Show state name abbrevation",
+            description: "Should state name abbrevation be shown when the lookup is done?",
+            key: "showstatenameabbr",
+            view: "boolean"
+          },
+          {
+            label: "Show coordinates",
+            description: "Should coordinates be shown when the lookup is done?",
+            key: "showcoordinates",
+            view: "boolean"
+          }
+        ]
+      },
+      defaultConfig:{
+        country: "Great Britain",
+        showplacename: "1"
+      }
+    } 
+  ],
+  javascript:  
+  [
+    "~/App_Plugins/Kraftvaerk.ZipLookUp/kraftvaerk.ziplookup.controller.js"
+  ]
+}

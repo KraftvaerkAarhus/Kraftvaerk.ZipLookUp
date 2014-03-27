@@ -1,0 +1,15 @@
+.umb-ziplookup > ol{
+  list-style-type: none;
+  margin: 0;
+}
+
+.umb-ziplookup label{
+  position:relative;
+  left: -11px;
+  float: left;
+  width:100%;
+}
+
+.umb-ziplookup li{
+  margin:0 0 10px 0;
+}

@@ -1,0 +1,48 @@
+<div ng-controller="Kraftvaerk.ZipLookUpController" class="umb-editor umb-ziplookup">
+
+<ol>
+	<li>
+		<label for="{{model.alias}}_code">
+			Enter the zip-code you want to lookup
+		</label>
+		<input type="text" id="{{model.alias}}_code" placeholder="{{zipFormat}}" class="{{countryCode}}" maxlength="{{maxLength}}" value="{{zip}}" />
+	</li>
+	<li ng-if="showCountry">
+		<label for="{{model.alias}}_country">
+			Country
+		</label>
+		<input type="text" id="{{model.alias}}_country" value="{{model.config.country}}" disabled />
+	</li>
+	<li ng-if="showCountryAbbr">
+		<label for="{{model.alias}}_countryabbr">
+			Country abbreviation
+		</label>
+		<input type="text" id="{{model.alias}}_countryabbr" value="{{countryabbr}}" disabled />
+	</li>
+	<li ng-if="showPlaceName">
+		<label for="{{model.alias}}_placename">
+			Place / City
+		</label>
+		<input type="text" id="{{model.alias}}_placename" value="{{placename}}" disabled />
+	</li>
+	<li ng-if="showStateName">
+		<label for="{{model.alias}}_placestatename">
+			State name
+		</label>
+		<input type="text" id="{{model.alias}}_placestatename" value="{{statename}}" disabled />
+	</li>
+	<li ng-if="showStateNameAbbr">
+		<label for="{{model.alias}}_placestateabbr">
+			State name abbrevation
+		</label>
+		<input type="text" id="{{model.alias}}_placestateabbr" value="{{statenameabbr}}" disabled />
+	</li>
+	<li ng-if="showCoordinates">
+		<label for="{{model.alias}}_latlng">
+			Coordinates
+		</label>
+		<input type="text" id="{{model.alias}}_latlng" value="{{coordinates}}" disabled />
+	</li>
+</ol>
+
+</div>

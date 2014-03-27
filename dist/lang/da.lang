@@ -1,0 +1,32 @@
+{
+	labels:[
+		{
+			key: "enterzipcode",
+			label: "Skriv det postnummer du vil slå op"
+		},
+		{
+			key: "country",
+			label: "Land"
+		},
+		{
+			key: "countryabbr",
+			label: "Forkortelse på land"
+		},
+		{
+			key: "placecity",
+			label: "Sted / By"
+		},
+		{
+			key: "statename",
+			label: "Navn på stat"
+		},
+		{
+			key: "statenameabbr",
+			label: "Forkortelse for navn på stat"
+		},
+		{
+			key: "coordinates",
+			label: "Koordinater"
+		},
+	]
+}

@@ -1,0 +1,38 @@
+ZipLookUp
+
+* To do
+- Sikre at felter cleares, hvis input længden er 0 - Hvorfor skal man først fjerne fokus før det forsvinder?
+- YEOMAN!
+
+Version 2
+- Localization / i18n
+- Gem data i formaterne eten csv, xml eller json
+- Returnering af data i det valgte format (Opsætning via manifest)
+- Vis kun state og state abrevation, hvis det valge land bruger stater
+- Sikre input ikke indeholder besteme tegn der ikke er tilladt..../&%() f.eks.
+- Skrive postal-code format i title eller placeholder?
+- Håndtering af flere places til samme postnummer se f.eks. api.zippopotam.us/CA/A0A eller http://api.zippopotam.us/CZ/100%2000
+
+
+// Ny pakke
+Editors galore!
+
+* Scribe
+
+Fandt lige denne på Hacker News: http://www.theguardian.com/info/developer-blog/2014/mar/20/inside-the-guardians-cms-meet-scribe-an-extensible-rich-text-editor
+Kildekode på https://github.com/guardian/scribe
+Eksempel: http://guardian.github.io/scribe/
+
+ZenPen
+https://github.com/tholman/zenpen
+http://www.zenpen.io/
+ 
+Medium
+http://jakiestfu.github.io/Medium.js/docs/
+https://github.com/jakiestfu/Medium.js
+ 
+html5
+https://github.com/xing/wysihtml5
+http://xing.github.io/wysihtml5/
+
+Chartspreee! 
